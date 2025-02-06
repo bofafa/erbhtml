@@ -41,3 +41,9 @@ only change one of the word in <p> use inline element
 X<sup>2</sup> 
 
 # CSS <span> </span>
+
+# image <img> no need closing tag
+<image src="photo.link"
+alt="" (if the link breake, it will show the text next to the broken jpg icon)
+title="point over" <!--when the mouse point over, it will show the name of the image--> />
+<figcaption> for photo title </figcaption> 
