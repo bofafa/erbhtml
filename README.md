@@ -46,4 +46,10 @@ X<sup>2</sup>
 <image src="photo.link"
 alt="" (if the link breake, it will show the text next to the broken jpg icon)
 title="point over" <!--when the mouse point over, it will show the name of the image--> />
-<figcaption> for photo title </figcaption> 
+ <!-- figure is a container for image -->
+ <figure> </figure>
+ <figcaption> for photo title </figcaption> 
+ figurecaption same as h1 
+ for image we use figurecaption
+
+
