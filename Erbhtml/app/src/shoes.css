@@ -1,0 +1,61 @@
+/* 
+  border: 1px solid red;
+*/
+
+  html {
+    /* font-family: "Robato"; */
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.container {
+  background-color: blue;
+}
+
+.card {
+  background-color: rgb(249, 246, 246);
+  margin: 10px;
+  text-indent: 10px;
+}
+
+
+h2 {
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+
+.sporty h2 {
+  color: red;
+}
+
+.sporty button {
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,a {
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+
+
+.casual h2 {
+  color: blueviolet;
+}
+
+.casual button{
+  background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formal {
+  color: rgb(1, 2, 17);
+}
+
+.formal h2 {
+  color:rgb(1, 2, 17);
+}
+
+.formal button {
+  background-color: rgb(1, 2, 17);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+} 

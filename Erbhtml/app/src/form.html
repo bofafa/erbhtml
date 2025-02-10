@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="form.css">
+  <title>Document</title>
+ 
+</head>
+<body>
+  <form action="http://www.google.com">
+    <div>
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" placeholder="eg.chan"/>
+      <br/>
+      <br/>
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstmName" placeholder="firstname"/>
+      <!-- "for" is for "id", when you point over the text it will show you the input box -->
+      </div>
+    <br/>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" minlength="3" maxlength="5" required > 
+    </div>
+    <br/>
+    <lable for="password"> Password</lable>
+    <input type="password" id="password" disabled/>
+    </div>
+    <br/>
+    <br/>
+    <div>
+      <label for="prodct">Product</label>
+      <select name="product" id="product">
+      <option value="ipnone">Iphone</option>
+      <option value="iwatch">Iwatch</option>
+      <option value="ipad">Ipad</option>
+      </select>
+    </div>
+     <!-- test area -->
+    <br/>
+    <textarea name="message" id="message" placeholder="enter your message" 
+    row ="4"
+    cols="40"></textarea>
+    <br/>
+     <label for="html" >
+      <input type="checkbox" name="language" id="html" value="html">HTML
+     </label>
+     <input type="checkbox" name="language" id="css" value="css"/>CSS
+     </label>
+    <br/>
+    <div>
+
+      <!-- radio -->
+      <h2>size</h2>
+      <label for="small">
+        <input type="radio" name="size" id="small" value="samll"/>Small
+      </label>
+      <label for="large">
+        <input type="radio" name="size" id="large" value="large" checked/>Large
+      </label>
+    </div>
+    <br/>
+    <div>
+      <label for="color">color</label>
+      <input type="color" name="color" id="color"/>
+    </div>
+    <br/>
+    <div>
+      <lable for="date">Date</lable>
+      <input type="date" name="date" id="date"/>      
+    </div>
+    <br/>
+    <div>
+      <label for="time">Time</label>
+      <input type="time" name="time" id="time"/>
+    </div>
+    <div>
+      <label for="week">Week</label>
+      <input type="week" name="week" id="week"/>
+    </div>
+    <br/>
+    <div>
+      <label for="range">Range</label>
+      <input 
+      type="range" 
+      name="range" 
+      id="range" 
+      min="0" 
+      max="100" 
+      step="10"
+      value="0"
+      style="width :200px"/>
+    </div>
+    <br>
+    <div>
+      <label for="url">url </label>
+      <input type="url" name="url" id="url"/> 
+    </div>
+    <br/>
+    <button type="submit"/>Sumbit</button>
+  </form>
+</body>
+</html>

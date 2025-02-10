@@ -53,3 +53,12 @@ title="point over" <!--when the mouse point over, it will show the name of the i
  for image we use figurecaption
 
 
+# inline and block
+## inline 
+image, link<a></a>
+
+## block
+p, hr = line, br = block space, h1 
+pre= preserve (text space)
+
+
