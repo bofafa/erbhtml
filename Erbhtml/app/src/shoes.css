@@ -1,10 +1,11 @@
-/* 
+
+* {
   border: 1px solid red;
-*/
+}
+
 
   html {
-    /* font-family: "Robato"; */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto";
   }
 
 .container {
@@ -17,19 +18,37 @@
   text-indent: 10px;
 }
 
+.card.sporty a {
+  display: flex;
+  justify-content: center; /* Center the button inside */
+  width: 100%; /* Make sure it's centered within the block */
+  margin-top: 20px; /* Adjust spacing */
+}
+ 
 
 h2 {
   text-transform: capitalize;
   letter-spacing: 5px;
+  font-weight: 900;
+  font-size: 45px;
+  font-style: italic;
+  line-height: 3;
+  text-align: center;
 }
 
 .sporty h2 {
   color: red;
+  text-align: left;
 }
 
 .sporty button {
   background-color: red;
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.2;
+}
+
+.card.sporty .inside {
+  color: aquamarine;
 }
 
 p,a {
@@ -40,6 +59,7 @@ p,a {
 
 .casual h2 {
   color: blueviolet;
+  text-align: right;
 }
 
 .casual button{
