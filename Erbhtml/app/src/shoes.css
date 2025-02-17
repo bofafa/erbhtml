@@ -2,20 +2,45 @@
 * {
   border: 1px solid red;
 }
-
+/* 1. !important overwrite class and id */
+/* 2. # = id , ID go first */
+/* 3 . = class */
 
   html {
-    font-family: "Roboto";
+    font-family: "Roboto"
   }
+、
+#container {
+  background-color: blue;
+  background: linear-gradient(to bottom, red, blue);
+  /* Lazy 版 
+  background: url("./download.jpeg") no-repeat center/cover*/
+}
 
 .container {
-  background-color: blue;
+  background-color: red;
+  letter-spacing: 30px;
+  background: linear-gradient(to bottom, red, blue);
 }
+
+.container a{font-size: 40px;
+  color: aliceblue;}
+
+  .fa-google {color: yellowgreen; font-size: 2rem;}  /*google icon font 16px, 4rem = 16px * 4times  */
+  
+  .container a:hover {color: red; font-size: 90px;}      /* mouse hover, color to red */
+  .container a:active {color: purple;}    /* mouse click, color to purple */
+  .container a:focus {background-color: yellow;}
+  /*.container a:visited{color: coral;}*/
+  
+
+  a {font-family: Arial, Helvetica, sans-serif;}
 
 .card {
   background-color: rgb(249, 246, 246);
   margin: 10px;
   text-indent: 10px;
+
 }
 
 .card.sporty a {
@@ -34,6 +59,13 @@ h2 {
   font-style: italic;
   line-height: 3;
   text-align: center;
+  word-spacing: 10px; /* space spacing*/
+}
+
+.card.sporty h2 {
+  background-image: url('./download.jpeg');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .sporty h2 {
@@ -44,10 +76,10 @@ h2 {
 .sporty button {
   background-color: red;
   font-family: Arial, Helvetica, sans-serif;
-  opacity: 0.2;
+  /* opacity: 0.2; */
 }
 
-.card.sporty .inside {
+.card.sporty .inside {   /* keep */
   color: aquamarine;
 }
 
@@ -55,7 +87,6 @@ p,a {
   font-size: 15px;
   letter-spacing: 4px;
 }
-
 
 .casual h2 {
   color: blueviolet;

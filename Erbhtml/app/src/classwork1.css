@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {  /*golbal setting*/
+  font-family: "Roboto"; 
+  /*letter-spacing: 1px;*/
+  word-spacing: 5px;
+  line-height: 1.6;
+}
+
+h1{
+  background-color: rgb(64, 21, 106);
+  color:aliceblue;
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+nav{
+  font-family: "Noto Sans TC";
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: rgb(236, 235, 235);
+  margin: 10px;
+}
+
+ul {
+  list-style: none; /* Removes the dots */
+  padding-left: 5px; /* Optional: removes default padding */
+  margin: 5px; /* Optional: removes default margin */
+  line-height: 2.2; /* 行距 用倍數*/
+}
+
+
+article{
+  margin: 10px;
+}
+
+h3 {
+color:blueviolet;
+}
+
