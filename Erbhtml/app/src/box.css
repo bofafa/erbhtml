@@ -1,0 +1,80 @@
+html{
+  margin: 0;
+  padding: 0;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.box{
+  background-color: darkblue;
+  color: aliceblue;
+  /* padding: 20px; */
+  /* padding-top: 20px; 
+  padding-left: 100px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+
+  Top, right, bottom, left
+  padding: 20px 100px 100px 40px;
+
+\  top + bottom, left + right
+  padding: 20px 100px
+
+  top, left+right, bottom
+  padding: 20px 100px 80px
+  */
+  margin: 20px;
+  padding: 100px;
+  border-top: 10px;
+  border-color: aquamarine;
+  border-style: dashed;
+  border-radius: 50px;
+  border-bottom: 0;
+
+  /* border: 3px solid green; */
+    /* border: size style color; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-1 {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 200px;
+}
+
+
+.box-1 h3{
+  display: inline;
+}
+
+.box-1 p{
+  display: inline;
+}
+
+.box-2 {
+ /* width: 60%;  broswer auto re-size */
+ margin: 60px 10px;
+
+}
+
+.box-2 p {
+  width: 50%;
+}
+
+.box-3 {
+  max-width: 800px;
+  min-width: 6oopx;
+}
+
+.box-3 h3{
+  margin: 20px auto;
+}
+
+h1{
+  display: none;
+  visibility: hidden;
+}

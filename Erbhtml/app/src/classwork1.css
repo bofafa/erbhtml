@@ -2,11 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+/*  { border:1px solid red;} Universal setting*/
+
 html {  /*golbal setting*/
   font-family: "Roboto"; 
-  /*letter-spacing: 1px;*/
+  line-height: 1.6;
   word-spacing: 5px;
   line-height: 1.6;
+  letter-spacing: 3px;
+  font-family: "Noto, Sans, RC", "Arial Narrow," Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 h1{
@@ -19,7 +24,7 @@ h1{
 }
 
 nav{
-  font-family: "Noto Sans TC";
+  font-family: "Noto Sans TC", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: lighter;
   background-color: rgb(236, 235, 235);
@@ -40,5 +45,11 @@ article{
 
 h3 {
 color:blueviolet;
+font-size: 18px;
 }
 
+p{
+  line-height: 2.2;
+  font-size: 14px;
+  text-justify: inter-word;
+}
