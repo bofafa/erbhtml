@@ -78,3 +78,17 @@ h1{
   display: none;
   visibility: hidden;
 }
+
+a{
+  display: block;  
+  background: lightblue;
+  padding: 40px;
+  border: 1px solid red;
+  margin: 20px 10px;
+}
+
+p{
+
+  background: lightblue;
+  padding: 30px;
+}

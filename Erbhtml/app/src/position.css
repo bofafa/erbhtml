@@ -1,0 +1,72 @@
+html{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  border: 1px solid green;
+}
+
+.box-1{
+  position: static;
+  /* default position is static
+  top bottom left right has no effect */
+  left: 300px;
+  top: 200px;
+  /* offset-x, offset-y, blur-radious, spread-radious, color */
+  box-shadow: 10px 10px 30px 2px black;
+}
+
+.box-2{
+  position: relative;
+  left: 30px;
+  top: 20px;
+  /* relatice to initial position, 
+  current position is left and away from top
+  the property is still static */
+}
+
+.box-3{
+  position: fixed;
+  background-color: orange;
+  top: 0;
+  left:0;
+  z-index: -1; /* layer number, the biggest number go to the front */
+  /* layering */
+  /* fixed- display position is out of current dimension, 
+  position 'layer' based on z-index value */
+}
+
+
+ .box-4{
+  position: sticky;
+  background: lightgreen;
+  top: 200px;
+  /* relative + fixed */
+ }
+
+ .box-5{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: pink;
+  z-index: 1;
+
+ }
+
+ .box-6 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+ }
+
+ .box-7{
+  position: absolute;
+  z-index: -1;
+ }
