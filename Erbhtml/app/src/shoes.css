@@ -1,112 +1,101 @@
 
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* 1. !important overwrite class and id */
 /* 2. # = id , ID go first */
 /* 3 . = class */
 
   html {
-    font-family: "Roboto"
+    font-family: "Roboto";
+    letter-spacing: 1px;
+    word-spacing: 3px;
   }
-、
+
+  body{
+    background-color: rgb(224, 230, 233);
+}
+/* 、
 #container {
   background-color: blue;
   background: linear-gradient(to bottom, red, blue);
   /* Lazy 版 
   background: url("./download.jpeg") no-repeat center/cover*/
-}
+
 
 .container {
-  background-color: red;
-  letter-spacing: 30px;
-  background: linear-gradient(to bottom, red, blue);
-}
+  max-width: 500px;
+  margin: 100px auto;
+  }
 
-.container a{font-size: 40px;
-  color: aliceblue;}
+  .card {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 13px 15px 11px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px rgb(173, 173, 173);
+  }
 
-  .fa-google {color: yellowgreen; font-size: 2rem;}  /*google icon font 16px, 4rem = 16px * 4times  */
+  .card h2{
+    margin-bottom: 8px;
+    text-transform: capitalize;
+  }
+
+  .card p{
+    margin-bottom: 8px;
+  }
+
+  .card button{
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 0px;
+    width: 150px;
+  }
+
+  a{
+    color: white;
+    font-weight: 500px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  .sporty h2{
+    color: red;
+  }
+
+  .sporty button{
+    background-color: red;
+    }
+
+
+    .sporty{
+      background: white url('./download.jpeg') no-repeat center right/178px;
+    }
+
+    .casual{
+      background: white url('./Screenshot\ 2025-02-20\ at\ 3.27.55\ PM.png') no-repeat center right/178px;
+    }
+    .formal{
+      background: white url('./Screenshot\ 2025-02-20\ at\ 3.33.46\ PM.png') no-repeat center right/178px;
+    }
+
+    .casual h2{
+      color: rgb(38, 0, 255);
+    }
   
-  .container a:hover {color: red; font-size: 90px;}      /* mouse hover, color to red */
-  .container a:active {color: purple;}    /* mouse click, color to purple */
-  .container a:focus {background-color: yellow;}
-  /*.container a:visited{color: coral;}*/
+    .casual button{
+      background-color: rgb(38, 0, 255);
+      }
+
+      .formal h2{
+        color: rgb(66, 46, 46);
+      }
+    
+      .formal button{
+        background-color :rgb(66, 46, 46);
+        }
   
-
-  a {font-family: Arial, Helvetica, sans-serif;}
-
-.card {
-  background-color: rgb(249, 246, 246);
-  margin: 10px;
-  text-indent: 10px;
-
-}
-
-.card.sporty a {
-  display: flex;
-  justify-content: center; /* Center the button inside */
-  width: 100%; /* Make sure it's centered within the block */
-  margin-top: 20px; /* Adjust spacing */
-}
- 
-
-h2 {
-  text-transform: capitalize;
-  letter-spacing: 5px;
-  font-weight: 900;
-  font-size: 45px;
-  font-style: italic;
-  line-height: 3;
-  text-align: center;
-  word-spacing: 10px; /* space spacing*/
-}
-
-.card.sporty h2 {
-  background-image: url('./download.jpeg');
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-.sporty h2 {
-  color: red;
-  text-align: left;
-}
-
-.sporty button {
-  background-color: red;
-  font-family: Arial, Helvetica, sans-serif;
-  /* opacity: 0.2; */
-}
-
-.card.sporty .inside {   /* keep */
-  color: aquamarine;
-}
-
-p,a {
-  font-size: 15px;
-  letter-spacing: 4px;
-}
-
-.casual h2 {
-  color: blueviolet;
-  text-align: right;
-}
-
-.casual button{
-  background-color: blueviolet;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.formal {
-  color: rgb(1, 2, 17);
-}
-
-.formal h2 {
-  color:rgb(1, 2, 17);
-}
-
-.formal button {
-  background-color: rgb(1, 2, 17);
-  color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-} 
