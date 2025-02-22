@@ -36,12 +36,13 @@ html{
 
 
 .box2{
-
-   align-self: flex-end; 
-   order: 3;
+/* flex-grow: 1; */
+order: 3;
+flex-shrink: 1;
 }
 
 .box3{
-  align-self: center;
-  order:2;
+ 
+  /* flex-grow: 2; */
+  flex-shrink: 2;
 }
