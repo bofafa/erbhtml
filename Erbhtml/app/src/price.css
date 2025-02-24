@@ -41,15 +41,18 @@ ul{
   list-style: none;
 }
 
-.sub{
+
+sup{
   font-size: 16px;
 }
 
-
+.mo{
+  font-size: 16px;
+}
 
 section{
  width: 300px;
- height: 600px;
+ min-height: 600px;
  text-align: center;
  background-color: white;
  box-shadow: 2px 1px 2px 1px rgb(212, 212, 212);
@@ -57,6 +60,10 @@ section{
  border-radius: 5px;
  margin:5px;
  min-width: 260px;
+}
+
+h2{
+  text-transform: uppercase;
 }
 
 .card1 h2{
@@ -73,7 +80,7 @@ background-color:rgb(232, 232, 232);
   padding: 20px;
   margin: 20px;
   color:white;
-  background-image: linear-gradient(to right, rgb(168, 168, 222) , rgb(129, 54, 195));
+  background: linear-gradient(to right, rgb(168, 168, 222) 25%, rgb(129, 54, 195));
   
   }
 
@@ -82,7 +89,7 @@ background-color:rgb(232, 232, 232);
     padding: 20px;
     margin: 20px;
     color:white;
-    background-image: linear-gradient(to right, rgb(237, 83, 201) , rgb(252, 145, 79));
+    background: linear-gradient(to right, rgb(237, 83, 201) , rgb(252, 145, 79));
   
     }
 
@@ -98,7 +105,7 @@ article{
   margin: 10px;
 }
 
-.card1 button {
+.card1  button {
   width: 250px;
   height: 50px;
   background-color: white;
@@ -108,11 +115,34 @@ article{
  margin-bottom: 50px;
 }
 
+.card1 button:hover {
+  width: 250px;
+  height: 50px;
+  color: white;
+  background-color:black;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .card2 button {
   width: 250px;
   height: 50px;
   color: white;
   background-color:black;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.card2 button:hover {
+  width: 250px;
+  height: 50px;
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
   border: 1px solid black;
   border-radius: 3px;
   margin-top: 50px;
