@@ -23,15 +23,6 @@ main{
   padding: 30px;
 }
 
-a {
-  text-decoration: none;
-  color:black;
-}
-
-.card2 a{
-  text-decoration: none;
-  color: white;
-}
 
 
 ul{
@@ -59,7 +50,6 @@ section{
  border-left: 5 solid  rgb(224, 224, 224); 
  border-radius: 5px;
  margin:5px;
- min-width: 260px;
 }
 
 h2{
@@ -100,63 +90,41 @@ background-color:rgb(232, 232, 232);
 }
 
 article{
-  min-width: 250px;
+  min-width: 200px;
   font-size: 14px;
   margin: 10px;
 }
 
-.card1  button {
+button {
   width: 250px;
   height: 50px;
   background-color: white;
   border: 1px solid black;
   border-radius: 3px;
- margin-top: 50px;
- margin-bottom: 50px;
-}
-
-.card1 button:hover {
-  width: 250px;
-  height: 50px;
-  color: white;
-  background-color:black;
-  border: 1px solid black;
-  border-radius: 3px;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 16px;
+}
+
+
+button:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
 }
 
 .card2 button {
-  width: 250px;
-  height: 50px;
+  background-color: black;
   color: white;
-  background-color:black;
-  border: 1px solid black;
-  border-radius: 3px;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 
 .card2 button:hover {
-  width: 250px;
-  height: 50px;
-  color: rgb(0, 0, 0);
-  background-color:rgb(255, 255, 255);
-  border: 1px solid black;
-  border-radius: 3px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.card3 button {
-  width: 250px;
-  height: 50px;
   background-color: white;
-  border: 1px solid black;
-  border-radius: 3px;
- margin-top: 50px;
- margin-bottom: 50px;
+  color: black;
 }
 
-
+.card3 button:hover {
+  background-color: black;
+  color: white;
+}
