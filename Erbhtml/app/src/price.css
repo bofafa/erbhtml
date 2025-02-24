@@ -138,3 +138,7 @@ a:hover {
   background-color: black;
   color: white;
 }
+
+.fa-check {
+  color: rgb(59, 215, 163);
+}
