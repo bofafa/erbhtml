@@ -1,0 +1,35 @@
+
+html{
+ font-size: 10px;
+}
+
+/* *{
+ margin: 0;
+ padding: 0;
+  border: 1px solid red;
+} */
+
+
+img {
+  width: 80%;
+  }
+
+.container{
+  width: 70%;
+  max-width: 1100px;
+  text-align: center;
+  margin: 5% auto;
+  font-size: 5vw;
+  height: 100vh;
+  background-color: coral;
+
+  /* margin: 20px auto; */
+}
+
+p {
+  font-size: 3vw;
+}
+
+li{
+  font-size: 3vw;
+}

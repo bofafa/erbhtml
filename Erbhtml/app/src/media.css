@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+word-spacing: 3px;
+letter-spacing: 1px;
+line-height: 1.5;
+}
+
+@media screen and (max-width:1200px){
+  .widescreen {
+  background-color: chocolate;
+}
+}
+
+@media (max-width:968px){
+  .normal{
+  background-color: lightblue;
+}
+}
+
+@media (max-width:668px){
+  .tablet{
+  background-color:  pink;
+}
+}
+
+@media (max-width:576px){
+  .smartphone{
+  background-color: lightgreen;
+}
+}
+
+@media (orientation: landscape){
+  .landscape{
+    background-color: yellow;
+  }
+}
+
+@media (max-height:500px){
+  .height{
+    background-color: blue;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  body{
+    background-color: rgb(97, 95, 95);
+  }
+}
