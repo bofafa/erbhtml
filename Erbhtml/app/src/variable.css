@@ -1,0 +1,46 @@
+html{
+  line-height: 1.5;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root{
+   --primary-color:rgb(140, 92, 92);
+   --secondary-color: pink;
+   --third-color: blue;
+   --container-width: 600px;
+
+}
+
+.container{
+  color:aquamarine;
+  display: flex;
+  max-width: 700px;
+  margin: 30px auto;
+  gap: 20px;
+}
+
+.container-1{
+  background-color: aquamarine;
+  color:var(--primary-color);
+  display: flex;
+  max-width: 700px;
+  margin: 30px auto;
+  gap: 20px;
+}
+
+.box-1{
+  background-color: aquamarine;
+  color:var(--primary-color);
+  display: flex;
+  max-width: 700px;
+  margin: 30px auto;
+  gap: 20px;
+}
+
+.box-2{
+  background-color: var(--secondary-color);
+ 
+}
